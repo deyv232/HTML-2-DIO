@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica dos olhos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+table {
+    -webkit-box-shadow: inset 0px -1px 10px 4px rgba(76, 234, 245, 0.42);
+    -moz-box-shadow: inset 0px -1px 10px 4px rgba(50, 58, 165, 0.42);
+    box-shadow: inset 0px -1px 10px 4px rgba(0,0,0,0.42);
+
+    border-style: ridge
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="pagina_inicial.html">Pagina Inicial</a></li>
+                <li><a href="Sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="horario-atend.html">Horario de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="olho-humano.png" width="985" height="480">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <table width="500" heigth="200" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <td>Serviços</td>
+                            <td>Segunda a sexta</td>
+                            <td>Sábados</td>
+                            <td>feriados</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Geral</td>
+                            <td>06h - 21h</td>
+                            <td>06h - 15h</td>
+                            <td>09h - 13h</td>
+                        </tr>
+                        <tr>
+                            <td>Catarata</td>
+                            <td>06h - 21h</td>
+                            <td>06h - 15h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Glaucoma</td>
+                            <td>06h - 21h</td>
+                            <td>06h - 15h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Retina</td>
+                            <td>06h- 21h</td>
+                            <td>06h - 15h</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>    
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+               
+                Contatos: (89) 3789-2782<br>
+                          (89) 97128-3636 <img src="logo-w.webp" width="15"/>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
