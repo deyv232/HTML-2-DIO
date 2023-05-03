@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica dos olhos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="pagina_inicial.html">Pagina Principal</a></li>
+                <li><a href="Sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="horario-atend.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="download.png" width="985" height="200">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                    Somos uma clinica especializada no cuidado da sua saúde oftalmologica, cuidando de você e da sua familia desde 1998<br>
+                buscando sempre trazer o melhor atendimento com excelência e de forma humanizada.<br>
+                Contamos com a melhor equipe de medicos da região, para assim poder oferecer o melhor cuidado para sua visão.    
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+               
+                Contatos: (89) 3789-2782<br>
+                          (89) 97128-3636 <img src="logo-w.webp" width="15"/>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
